@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 import Card from "react-bootstrap/Card";
 
-const Cards = (Props) => {
+var Cards = (Props) => {
   return (
     
     <Card className="my-2 p-2 text-center">
@@ -10,12 +10,11 @@ const Cards = (Props) => {
       <h5 className="card-title">{Props.name}</h5>
       <div className="mx-2"><hr className="solid" /></div>
       <p className="card-text"><i className="fas fa-map-marker-alt"></i><span className="mb-2 text-muted">{Props.descripcion}</span></p>
-      </div>
-             
+      </div>             
     </Card>
 
   );
-};
+}
 
 
-export default Cards;
+export default Cards

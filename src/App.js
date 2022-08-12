@@ -8,11 +8,11 @@ import Cards from './componentes/Card/Card';
 
 function App() {
   return (
-    <div className="all">
+    <div className="Galery">
       <Header />
       <Cards
             img="https://www.pexels.com/es-es/foto/mar-naturaleza-cielo-pajaro-9365642/"
-            name="Mar"
+            name="Oceano"
             descripcion="Agua"
       />
       <Cards
