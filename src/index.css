@@ -11,11 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card{  
+  width: 40%;
+  height: 20%;
+  box-shadow: 1px 1px 5px 1px #e1e2e1;
+  border-radius: 40px;
+  box-shadow: 8px 4px 4px rgba(247, 196, 54, 0.108);
+  margin: 10%;
+  cursor: pointer;
+  padding: 90%;
+  gap: 90px;
+}
+  
+  
 
-header {
-  background-color: lightgreen;
+.card-img-top {
+  width:50%;
+  height: 20%; 
+  object-fit: cover;
+}
+.card-title {
+  font-size: 20pt;
+  font-weight: 300;
+}
+.card-subtitle {
+  font-size: 16pt;
+  font-weight: 300;
+}
+.card-text {
+  font-size: 13pt;
+  font-weight: 300;
 }
 
-footer {
-  background-color: lightgreen;
+h4{
+  font-size: 13pt;
+  color: aqua;
+}
+
+.header {
+  background-color: gainsboro;
+}
+
+.footer {
+  background-color: gainsboro;
 }

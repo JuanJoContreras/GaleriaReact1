@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto';
 }
+
+.App {
+    text-align: center;
+  }
 .bg-personalizado {
     background-color: #28a745;
 }
